@@ -4,10 +4,10 @@ var mysql      = require('mysql');
 var nodemailer = require('nodemailer');
 
 var connection = mysql.createConnection({
-  host     : 'localhost',
-  user     : 'root',
-  password : 'iti',
-  database : 'locator'
+  host     : 'sql9.freemysqlhosting.net',
+  user     : 'sql9169310',
+  password : 'UbKCvPlyVf',
+  database : 'sql9169310'
 });
 connection.connect();
 
